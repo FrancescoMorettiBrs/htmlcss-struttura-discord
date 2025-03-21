@@ -1,0 +1,38 @@
+/* RESET */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: 0;
+}
+
+img {
+  max-width: 100%;
+}
+
+/* COMMON */
+/* Layout */
+.container {
+  width: 80%;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+/* Header */
+.header-bg {
+  height: 80px;
+  /* debug */
+  background-color: #add8e6;
+  align-content: center;
+}
+
+.flex-container-logo {
+  display: flex;
+  padding: 8px;
+  justify-content: space-between;
+  /* debug */
+  border: 2px solid #000000;
+  background-color: #daa520;
+}
+
+/* Main */
+/* Footer */
