@@ -161,9 +161,32 @@ img {
 }
 
 /* Footer */
-/* .footer-bg {
+.footer-bg {
   background-color: #23272a;
-  align-content: center;
+  align-content: flex-end;
   height: 80px;
   margin-top: 3px;
-} */
+}
+
+.flex-container-footer {
+  display: flex;
+  /* padding: 8px; */
+  justify-content: space-between;
+  height: 50px;
+  align-items: center;
+  /* debug */
+  border: 2px solid #000000;
+  background-color: #7fffd4;
+}
+
+.logo-footer {
+  border: 2px dashed black;
+  padding: 3px;
+  background-color: #ffb6c1;
+}
+
+.button-footer {
+  border: 2px dashed black;
+  padding: 3px;
+  background-color: #ffb6c1;
+}
